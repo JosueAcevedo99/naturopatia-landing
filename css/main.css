@@ -41,7 +41,7 @@ a{
     text-decoration: none !important;
 }
 
-.iconfoot{
+.iconfoot, .text-grad{
     color:  var(--brand) !important;
 }
 
@@ -89,71 +89,6 @@ section {
     color: var(--brand) !important;
 }
 
-
-.hero-slider .owl-prev,
-.hero-slider .owl-next{
-    background-color: rgba(255, 255, 255, 0.3) !important;
-    width: 60px !important;
-    height: 60px !important;
-    display: block;
-    display: grid;
-    place-items: center;
-    color: #fff !important;
-    border-radius: 100px;
-    line-height: 0;
-    border-radius: 100px !important;
-    position: absolute;
-    top: 50%;
-    font-weight: 600 !important;
-    font-size: 12px !important;
-    transition: all 0.4s ease;
-    margin-top: -30px !important;
-}
-
-.owl-prev {
-    left: 0;
-}
-.owl-next {
-    right: 0;
-}
-
-.hero-slider .owl-prev:hover,
-.hero-slider .owl-next:hover {
-    background-color: var(--brand) !important; 
-}
-
-.owl-dot.active span{
-    background-color: var(--brand) !important;
-}
-
-
- /* slide */
- .slide {
-     min-height: 100vh;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     position: relative;
-}
-
-.slide1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/bg_banner1.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.slide .display-3 {
-    text-transform: uppercase;
-    color: #fff;
-}
 
 /* navbar */
 .top-nav {
@@ -303,7 +238,8 @@ text-align: center;}
     position: absolute;
     bottom: 0;
     left: 0;
-    background: linear-gradient(180deg, rgba(255, 76, 41, 0) 0%, var(--dark) 100%);
+    background: var(--dark);
+    
 }
 
 .project .content {
@@ -327,15 +263,9 @@ text-align: center;}
     overflow: hidden;
 }
 
-.team-member .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: -10%;
-    background-color: #109801;
-    opacity: 0;
-    transition: all 0.4s ease;
+.team-member:hover {
+    background-color: rgb(16, 152, 1, 0.2);
+    
 }
 
 
@@ -345,30 +275,8 @@ text-align: center;}
     margin-bottom: 0.5rem;
 }
 
-.team-member .social-icons {
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    opacity: 0;
-    transition: all 0.4s ease;
-}
 
-.team-member .social-icons a {
-    width: 40px;
-    height: 40px;
-}
 
-.team-member:hover .social-icons {
-    top: 50%;
-    opacity: 1;
-}
-
-.team-member:hover .overlay {
-    top: 0%;
-    opacity: 1;
-}
 
 #reviews {
 
