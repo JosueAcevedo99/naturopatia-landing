@@ -23,14 +23,14 @@
 
     <!-- NAVBar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#">Naturopatía Xalapa</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
+            <div class="collapse navbar-collapse align-items-center" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-center">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
                     </li>
@@ -46,7 +46,9 @@
                         <a class="nav-link" href="#blog">Videos</a>
                     </li>
                 </ul>
-                <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contacto</a>
+                <div class="d-flex justify-content-center">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-brand ms-lg-3">Contacto</a>
+                </div>    
             </div>
         </div>
     </nav>
@@ -480,18 +482,19 @@
 
 
     <!-- footer -->
-    <footer class = "foot bg-white">
+    <footer class = "foot bg-white text-center align-items-center justify-content-center">
         <div class = "container foot bg-white ">
 
-            <div class = "row text-white g-4 ">
-                <div class = "col-md-6 col-lg-3">
+            <div class = "row text-white g-4 align-items-center justify-content-center">
+
+                <div class = "col-md-6 col-lg-4">
                     <h5 >Naturopatía sede Xalapa</h5>
                     <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
                 </div>
 
-                <div class = "col-md-6 col-lg-3">
+                <div class = "col-md-6 col-lg-2 text-center align-items-center justify-content-center">
                     <h5 >Secciones</h5>
-                    <ul class = "list-unstyled">
+                    <ul class = "list-unstyled text-center align-items-center justify-content-center">
                         <li class = "my-3">
                             <a href = "#" class = "text-white text-decoration-none text-muted">Home</a>
                         </li>
@@ -507,7 +510,7 @@
                     </ul>
                 </div>
 
-                <div class = "col-md-6 col-lg-3">
+                <div class = "col-md-6 col-lg-4 text-center align-items-center justify-content-center">
                     <h5 class = " mb-3">Contacto</h5>
                     <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
                         <span class = "me-3">
@@ -535,10 +538,10 @@
                     </div>
                 </div>
 
-                <div class = "col-md-6 col-lg-3">
+                <div class = "col-md-6 col-lg-2">
                     <h5 class = "mb-3">Síguenos</h5>
                     <div>
-                        <ul class = "list-unstyled d-flex">
+                        <ul class = "list-unstyled d-flex ">
                             <li>
                                 <a href = "https://www.facebook.com/DIRECCIONSOLIDARIAOLIVIAMTZ" target="_blank" class = "text-white text-decoration-none text-muted fs-4 me-4">
                                     <i class="bi bi-facebook"></i>
@@ -560,9 +563,9 @@
                     <p class="col-sm-9 fs-4 px-5  pt-3">Josué Acevedo. &copy; Todos Los Derechos Reservados 2022</p>
                     
                     <div class = "col-sm-2 icons derechos" >
-                        <a class = "iconfoot" href="https://github.com/JosueAcevedo99" target="_blank"><i class="bi bi-github"></i></a>
-                        <a class = "iconfoot" href="https://mx.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
-                        <a class = "iconfoot" href="#"><i class="bi bi-arrow-up-circle-fill"></i></a>
+                        <a class = "iconfoot fs-4" href="https://github.com/JosueAcevedo99" target="_blank"><i class="bi bi-github"></i></a>
+                        <a class = "iconfoot fs-4" href="https://mx.linkedin.com/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a class = "iconfoot fs-4" href="#"><i class="bi bi-arrow-up-circle-fill"></i></a>
                     </div>
                 </div>
             </div>
